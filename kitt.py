@@ -43,7 +43,7 @@ transcriber = pipeline(
 print("Initializing vocal synthesizer...")
 tts_model = KModel().to(device).eval()
 tts_pipeline = KPipeline(lang_code='a', model=False)
-tts_voice_pack = tts_pipeline.load_voice('am_michael') # A fitting voice
+tts_voice_pack = tts_pipeline.load_voice('af_heart') # A fitting voice
 
 # --- Agent and Tool Setup ---
 # Get the LLM model from the llm library's registry
