@@ -1,0 +1,10 @@
+llm
+llm-ollama
+ollama
+insanely-fast-whisper
+transformers
+torch
+accelerate
+kokoro
+scipy
+python-obd
